@@ -1,7 +1,4 @@
 import numpy as np
-import pandas as pd
-
-
 
 expenses = np.array([[2500, 2000, 2000, 2000],
                 [350, 405, 325, 210],
