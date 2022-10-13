@@ -129,7 +129,7 @@ import numpy as np
 import scipy.io as sio
 import matplotlib.pyplot as plt
 
-#collaboarated with eric liu
+#collaborated with eric liu
 
 
 # n = number of points
@@ -149,7 +149,7 @@ X = np.zeros((n,d))
 
 # generate X-matrix
 for i in range(n):
-    for j in range(3):
+    for j in range(d):
         X[i][j] = z[i] ** j
 
 # evaluate polynomial at all points z, and store the result in p # do NOT use a loop for this
