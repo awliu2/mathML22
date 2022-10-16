@@ -13,7 +13,7 @@ n, p = np.shape(X)
 w1 = (np.linalg.inv((X.T).dot(X)).dot(X.T)).dot(y)
 # print(w1)
 w2 = np.linalg.pinv(X).dot(y)
-print(f"weight coefficients:\n{w2}\n") 
+print(f"weight coefficients:\n{w2}\n")
 # w = [[ 0.94366942]
 #      [ 0.21373778]
 #      [ 0.26641775]
@@ -74,7 +74,7 @@ print (f"error value using all 9 features: {cross_validate(X, y)}") # outputs 0.
 
 # try again with just three features (1, 3, 4 in 1-based indexing)
 X_3 = X[:,[0, 2, 3]]
-print (f"error value using all 3 features: {cross_validate(X_3, y)}") # outputs 0.833
+print (f"error value using all 3 features: {cross_validate(X_3, y)}") # outputs 0.0833
 
 
 
